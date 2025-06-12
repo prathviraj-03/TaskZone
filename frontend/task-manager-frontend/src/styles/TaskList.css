@@ -1,0 +1,55 @@
+/* TaskList.css */
+
+.task-list {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 1.5rem;
+  border-radius: 15px;
+  backdrop-filter: blur(8px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  color: #fff;
+}
+
+.task-list h2 {
+  font-size: 1.6rem;
+  margin-bottom: 1rem;
+}
+
+.task-list ul {
+  list-style: none;
+  padding: 0;
+}
+
+.task-list li {
+  margin-bottom: 1rem;
+  background: rgba(255, 255, 255, 0.2);
+  padding: 1rem;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.task-list input,
+.task-list select {
+  padding: 0.6rem;
+  margin-right: 0.5rem;
+  border-radius: 8px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1rem;
+}
+
+.button-group button {
+  margin-left: 0.5rem;
+  background: #6C63FF;
+  color: white;
+  padding: 0.5rem 0.8rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.button-group button:hover {
+  transform: scale(1.05);
+  background: #5a52d6;
+}

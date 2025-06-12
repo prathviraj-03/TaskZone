@@ -1,0 +1,79 @@
+/* src/styles/RegisterForm.css */
+
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@600&display=swap');
+
+.register-page {
+    font-family: 'Orbitron', sans-serif;
+    color: #fff;
+}
+
+.welcome-title {
+    font-size: 2.8rem;
+    color: #00ffe5;
+    text-shadow: 0 0 8px #00ffe5, 0 0 16px #00ffe5;
+    margin-bottom: 20px;
+    animation: glow-fade 2s ease-in-out infinite alternate;
+    text-align: center;
+}
+
+.register-form {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 30px;
+    border-radius: 16px;
+    box-shadow: 0 0 15px rgba(0, 255, 229, 0.4);
+    width: 90%;
+    max-width: 400px;
+    backdrop-filter: blur(12px);
+}
+
+.register-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #00ffe5;
+    font-weight: bold;
+}
+
+.register-form input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 8px;
+    background-color: #222;
+    color: #fff;
+    font-size: 1rem;
+    outline: none;
+    transition: 0.3s;
+}
+
+.register-form input:focus {
+    border: 2px solid #00ffe5;
+    background-color: #111;
+}
+
+.register-form button {
+    width: 100%;
+    padding: 12px;
+    background: #00ffe5;
+    color: #000;
+    font-weight: bold;
+    font-size: 1rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.register-form button:hover {
+    background: #00d9c0;
+}
+
+/* Glowing title animation */
+@keyframes glow-fade {
+    from {
+        text-shadow: 0 0 5px #00ffe5, 0 0 10px #00ffe5;
+    }
+    to {
+        text-shadow: 0 0 20px #00ffe5, 0 0 40px #00ffe5;
+    }
+}
