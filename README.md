@@ -8,7 +8,7 @@ TaskZone is a full-stack Task Manager application built with Spring Boot and Rea
 ✅ Add, Edit, Delete Tasks  
 ✅ Task Completion Toggle  
 ✅ Fully Responsive UI (React.js)  
-✅ RESTful APIs  
+✅ RESTful APIs 
 ✅ Clean Code Structure
 
 ---
