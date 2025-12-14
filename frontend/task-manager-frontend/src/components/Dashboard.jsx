@@ -75,7 +75,7 @@ const Dashboard = () => {
       </main>
 
       <footer className="dashboard-footer">
-        © 2025 Task Manager. Built with 💜 by You.
+        © 2025 Task Manager. All rights reserved @prathviraj-03.
       </footer>
     </motion.div>
   );
